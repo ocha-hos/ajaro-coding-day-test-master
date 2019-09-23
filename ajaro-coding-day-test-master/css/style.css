@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head1 {
+    background-color: #313131;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.head2 {
+    padding: 140px;
+}
+
+.head3 {
+    padding: 485px;
+}
+
+.add {
+    background-color: #22c522;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 140px;
+}
+
+.add:hover {
+    transition: all 0.5s ease-in;
+    background-color: #313131;
+}
+
+.table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.edit {
+    text-decoration: none;
+    color: blue;
+}
+
+.edit:hover {
+    font-size: 18px;
+}
+
+.del {
+    text-decoration: none;
+    color: red;
+}
+
+.del:hover {
+    font-size: 18px;
+}
+
+.space {
+    word-spacing: 75px;
+}
+
+.tabel {
+    line-height: 200%;
+    font-size: 14px;
+    text-align: left;
+    margin: auto;
+}
+
+.boxkode {
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 250px;
+    padding-left: 5px;
+}
+
+.boxnama {
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 300px;
+    padding-left: 5px;
+}
+
+.boxdesk {
+    border-radius: 7px;
+    border: 1px solid black;
+    resize: none;
+    width: 300px;
+    height: 100px;
+    padding-left: 5px;
+}
+
+.boxharga {
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.boxstok {
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 150px;
+    padding-left: 5px;
+}
+
+.boxberat {
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 75px;
+    padding-left: 5px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #22c522;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #313131;
+    transition: all 0.5s ease-in;
+}
